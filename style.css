@@ -1,0 +1,161 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #eee;
+    font-family: 'Lato', sans-serif;
+}
+
+.navigate {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    /* position: fixed;
+    top: 0; */
+
+}
+
+.divlist > ul {
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    cursor: pointer;
+}
+
+.divlist {
+    width: 50%;
+}
+
+/* header {
+    margin-bottom: 30px;
+} */
+
+.blkquote{
+    text-align: center;
+    font-size: 30px;
+    padding: 20px;
+}
+
+.startedbutton {
+    text-align: center;
+    padding: 5px;
+
+}
+
+#getstarted {
+    padding: 5px;
+    background-color: #f1c40f;
+    font-weight: 800;
+    border: 0;    
+}
+
+.mailput {
+    text-align: center;
+    padding: 10px;
+}
+
+.sectioning {
+    display: flex;
+    /* justify-content: center; */
+    margin: 20px;
+    padding: 20px;
+    
+}
+.sechome {
+    padding-left: 500px;
+    padding-top: 50px;
+
+}
+
+.columncontain {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 60px;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+.columndiv {
+    border: 1px solid black;
+    height: 300px;
+    width: calc(100% / 3);
+    text-align: center;
+    margin: 40px;
+
+}
+
+.columndiv > ul {
+    list-style-type: none;
+}
+
+.polyconst {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.containers {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    border: 1px solid black;
+    margin-left: 100px;
+    margin-right: 100px;
+    height: 300px;
+    width: 300px;
+    text-align: center;
+}
+
+.containers > ul {
+    list-style-type: none;
+}
+
+.containers > ul > li {
+    margin-bottom: 10px;
+}
+
+.selectbtn {
+    background-color: #f1c40f;
+    width: 100px;
+    height: 30px;
+    margin: 0 auto;
+    border: 0;
+    margin-bottom: 40px;
+}
+
+.footerelement {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    list-style-type: none;
+    cursor: pointer;
+}
+
+.footerelement > li {
+    margin-left: 40px;
+}
+
+footer {
+    margin-left: 200px;
+    margin-right: 200px;
+    margin-top: 50px;
+    padding: 50px;
+    background-color: #ddd;
+}
+
+/* <div class="mailput">
+        <input type="email" placeholder="Enter your email address" size="40" id="email" style="max-width: 275px; width: 100%; padding: 5px;">
+    </div>
+    <div  class="startedbutton">
+      <button type="button" id="submit">GET STARTED</button>
+    </div>
+    */
+    
